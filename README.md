@@ -5,3 +5,4 @@ yum install portaudio-devel alsa-lib-devel portaudio
 
 pip install SpeechRecognition
 pip install pyaudio
+pip install pyst2
