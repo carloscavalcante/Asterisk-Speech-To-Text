@@ -12,6 +12,8 @@ pip install pyst2
 
 copie o arquivo ouvir.py para a pasta "/var/lib/asterisk/agi-bin"
 
+crie uma pasta dentro de monitor chamada "speech" ou como desejar.
+
 Segue exemplo:
 
 exten => 1234,1,Record(/var/spool/asterisk/monitor/speech/102030.wav,,5)
