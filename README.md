@@ -9,3 +9,9 @@ pip install SpeechRecognition
 pip install pyaudio
 
 pip install pyst2
+
+exten => 1234,1,Record(/var/spool/asterisk/monitor/speech/102030.wav,,5)
+exten => 1234,n,Set(id=102030)
+exten => 1234,n,AGI(reconhecefala.py,id)
+exten => 1234,n,AGI(googletts.agi,${OUTPUT},pt-br)
+exten => 1234,n,Hangup
