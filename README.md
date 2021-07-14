@@ -1,5 +1,8 @@
 # Asterisk-Speech-To-Text
 
+Este recurso é utilizado para reconhecimento de voz pelo Asterisk / Issabel, possibilitando inúmeras funções de acordo com a resposta.
+
+
 Instalar as dependencias:
 
 yum install portaudio-devel alsa-lib-devel portaudio python python-pip python-devel libxslt-devel libffi-devel openssl-devel
