@@ -19,9 +19,9 @@ crie uma pasta dentro de monitor chamada "speech" ou como desejar.
 
 Segue exemplo:
 
-exten => 1234,1,Record(/var/spool/asterisk/monitor/speech/102030.wav,,5)
-
 exten => 1234,n,Set(id=102030)
+
+exten => 1234,1,Record(/var/spool/asterisk/monitor/speech/${id}.wav,,5)
 
 exten => 1234,n,AGI(ouvir.py,id)
 
