@@ -25,7 +25,7 @@ exten => 1234,n,Set(id=102030)
 
 exten => 1234,n,AGI(ouvir.py,id)
 
-exten => 1234,n,AGI(googletts.agi,${OUTPUT},pt-br)
+exten => 1234,n,NoOp(${OUTPUT})
 
 exten => 1234,n,Hangup
 
