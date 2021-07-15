@@ -11,6 +11,8 @@ pip install SpeechRecognition
 
 pip install pyaudio
 
+pip install unidecode
+
 pip install pyst2
 
 copie o arquivo ouvir.py para a pasta "/var/lib/asterisk/agi-bin"
